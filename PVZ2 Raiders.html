@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="javascriptpvz.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Plants vs Zombies2</title>
+         <link rel="stylesheet" href="./img/stylepvz3.css">
+         <link rel="stylesheet" href="./img/stylepvz2.css">
+        <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+        
+    </head>
+    <body>
+        <header>
+            <div class="sunflower">
+                <img src="./img/game1.jpg" alt="sunflower" />
+                <h1>Crazy Dave Guide</h1>
+              </div>
+            <nav>
+                <ul>
+                  <li><a href="index.html">HomePage</a></li>
+                  <li><a href="./PVZ1.html">Pvz1</a></li>
+                  <li><a href="./PVZ1 Raiders.html">Pvz1Raiders</a></li>
+                  <li><a href="./PVZ2.html">Pvz2</a></li>
+                  <li><a href="./PVZ2 Raiders.html">Pvz2Raiders</a></li>
+                  <li><a href="./More info.html">MoreInfo</a></li>
+                </ul>
+              </nav>
+        </header>
+        <main>
+            <section class="backImage">
+              <div class="filter"></div>
+              <h3>
+                Crazy Dave Guide
+              </h3>
+                 
+              <h2>
+                <img src="./img/game1.jpg" alt="sunflower" />
+                
+              </h2>
+            
+
+            </section>
+        </main>
+        <main>
+            <section class="backImage">
+              <div class="filter"></div>
+              <h3>
+              </h3>
+                 
+              <iframe width="900" height="500" src="https://www.youtube.com/embed/hIahbnRTRqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+
+            </section>
+        </main>
+        <main>
+            <section class="backImage">
+                <h3>
+                    New plants
+                  </h3>
+                <table><tr>
+                    <div><td><img src="./img/whynot" border=0></td> <h3>akee(175)</h3></div>
+                    <div><td><img src="./img/ggee.png" border=0></td></div>
+                    <td><img src="./img/orz.jfif" border=0></td>
+                    </tr></table>
+            </section>
+        </main>
+        <title>Guess the Number</title>
+        <style>
+          /* CSS for styling the page */
+          body {
+            text-align: center;
+          }
+          h1 {
+            margin-top: 50px;
+            font-size: 3em;
+          }
+          #result {
+            font-size: 2em;
+            margin-top: 20px;
+          }
+          #guess-form {
+            margin-top: 50px;
+          }
+          #guess-form input[type="text"] {
+            font-size: 2em;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+          }
+          #guess-form input[type="submit"] {
+            font-size: 2em;
+            padding: 10px 20px;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>Guess how much does it cost</h1>
+        <p id="result"></p>
+        <form id="guess-form">
+          <input type="text" id="guess" placeholder="Enter a number between 1 and 300">
+          <input type="submit" value="Guess">
+        </form>
+        <script>
+          var targetNumber = 175;
+          var guessForm = document.getElementById("guess-form");
+          var result = document.getElementById("result");
+          
+          guessForm.addEventListener("submit", function(e) {
+            e.preventDefault();
+            var guess = parseInt(document.getElementById("guess").value);
+            if (guess === targetNumber) {
+              result.innerHTML = "Congratulations! You guessed the number!";
+            } else if (guess > targetNumber) {
+              result.innerHTML = "Too high. Guess again.";
+            } else {
+              result.innerHTML = "Too low. Guess again.";
+            }
+          });
+        </script>
+        <img src="./img/orz.jfif" alt="sunflower" />
+        <main>
+            <section class="backImage">
+              <div class="filter"></div>
+              <h3>
+              </h3>
+              <h3>Tier List</h3>
+              <h2>
+                <img width="900" height="500" src="./img/ta.jfif" alt="sunflower" />
+                
+              </h2>
+            
+               
+            </section>
+            <main>
+                <section class="backImage">
+                  <div class="filter"></div>
+                  <form id="survey-form">
+                    <h3>User Experience Survey</h3>
+                    <label for="rating">Please rate your overall experience on a scale of 1-5:</label>
+                    <input type="number" id="rating" name="rating" min="1" max="5" required>
+                    
+                    <label for="comments">Additional comments:</label>
+                    <textarea id="comments" name="comments"></textarea>
+                  
+                    <h3> How easy was it to find what you were looking for?</h3>
+                    <input type="radio" id="easy" name="navigation" value="easy">
+                    <label for="easy">Easy</label>
+                    <input type="radio" id="medium" name="navigation" value="medium">
+                    <label for="medium">Medium</label>
+                    <input type="radio" id="difficult" name="navigation" value="difficult">
+                    <label for="difficult">Difficult</label>
+                  
+                    <h3>How satisfied are you with the performance of the website?</h3>
+                    <input type="radio" id="satisfied" name="performance" value="satisfied">
+                    <label for="satisfied">Satisfied</label>
+                    <input type="radio" id="neutral" name="performance" value="neutral">
+                    <label for="neutral">Neutral</label>
+                    <input type="radio" id="dissatisfied" name="performance" value="dissatisfied">
+                    <label for="dissatisfied">Dissatisfied</label>
+                  
+                    <input type="submit" value="Submit">
+                  </form>
+                </section>
+            
+            <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20website:%20" class="twitter-share-button" data-show-count="false">Tweet</a> 
+      <a href="https://www.instagram.com" class="twitter-share-button" data-show-count="false">ig</a> 
+      <a href="https://www.facebook.com/login/" class="twitter-share-button" data-show-count="false">facebook</a>
+        
+    
+    </body>
+</html>

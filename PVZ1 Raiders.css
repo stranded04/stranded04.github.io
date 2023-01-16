@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+ 
+/* body 样式 */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+ 
+/* 标题 */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    background-image: url('https://img.siemens-home.cn/uploadimg/image/20210525/20210525144221_45091.jpg');
+    background-repeat:no-repeat;
+    background-size: 1150px 375px;
+    font-family: fantasy
+}
+ 
+/* 标题字体加大 */
+.header h1 {
+    font-size: 40px;
+}
+ 
+/* 导航 */
+.navbar {
+    overflow: hidden;
+    background-color:saddlebrown;
+}
+ 
+/* 导航栏样式 */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: fantasy
+}
+ 
+/* 右侧链接*/
+.navbar a.right {
+    float: right;
+}
+ 
+/* 鼠标移动到链接的颜色 */
+.navbar a:hover {
+    background-color: burlywood;
+    color: black;
+}
+
+.main {
+    background-image: url('https://static.wikia.nocookie.net/plantsvszombies/images/4/42/%E6%B3%B3%E6%B1%A0.jpg/revision/latest?cb=20210712083954&path-prefix=zh');   
+}
